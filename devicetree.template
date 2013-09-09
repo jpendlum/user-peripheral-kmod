@@ -1,0 +1,7 @@
+user_peripheral@40000000 {
+	compatible = "gnuradio,user_peripheral";
+	reg = <0x40000000 0x20000>;
+	interrupts = < 0 59 1 >;
+	interrupt-parent = <&gic>;
+};
+
